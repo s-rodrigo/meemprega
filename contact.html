@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Emagz - News & Magazine Mobile Template</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1  maximum-scale=1 user-scalable=no">
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-touch-fullscreen" content="yes">
+	<meta name="HandheldFriendly" content="True">
+	
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet"> 
+
+	<link rel="stylesheet" href="css/materialize.css">
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/owl.theme.css">
+	<link rel="stylesheet" href="css/owl.transitions.css">
+	<link rel="stylesheet" href="css/style.css">
+	
+	<link rel="shortcut icon" href="img/favicon.png">
+</head>
+<body>
+	<div class="navbar-top">
+		<div class="side-nav-panel-left">
+			<a href="#" data-activates="slide-out-left" class="side-nav-left"><i class="fa fa-bars"></i></a>
+		</div>
+		
+		<div class="site-brand">
+			<a href="index.html" class="das"><h1><span>E</span>MAGZ</h1></a>
+		</div>
+		
+		<div class="side-nav-panel-right">
+			<a href="#" data-activates="slide-out-right" class="side-nav-right"><i class="fa fa-search"></i></a>
+		</div>
+	</div>
+
+	<div class="side-nav-panel-left">
+		<ul id="slide-out-left" class="side-nav side-nav-panel collapsible" data-collapsible="accordion" style="margin-top: 65px;">
+			<li><a href="index.html"><i class="fa fa-home"></i>Inicio</a></li>
+			<li><a href="about-us.html"><i class="fa fa-user"></i>Sobre nós</a></li>
+			<li><a href="jobs-list.html"><i class="fa fa-clone"></i>Vagas</a></li>
+			<li><a href="contact.html"><i class="fa fa-envelope-o"></i>Contato</a></li>
+			<li><a href="login.html"><i class="fa fa-sign-in"></i>Divulgar vaga</a></li>
+		</ul>
+	</div>
+
+	<div class="side-nav-panel-right">
+		<div id="slide-out-right" class="side-nav side-nav-search" style="margin-top: 65px;">
+			<div class="search-top">
+				<div class="title-label-search">
+					<h2>Pesquisar</h2>
+				</div>
+				<div class="search">
+					<input type="text" placeholder="Ex. Produção">
+				</div>
+				<div class="search">
+					<input type="text" placeholder="Cidade / SP">
+				</div>
+				<div class="search">
+					<button type="button"><i class="fa fa-search"></i> Buscar</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="contact-us pages section">
+		<div class="container">
+			<div class="pages-head">
+				<h2>Contate-nos</h2>
+			</div>
+			<div class="row">
+				<div class="col s12">
+					<form action="send-mail.php" class="contact-form" id="contact-form" method="post">
+						<div class="form-group" id="name-field">
+							<h5>Nome*</h5>
+							<input type="text" class="validate" id="form-name" name="form-name" required>
+						</div>
+						<div class="form-group" id="email-field">
+							<h5>Email*</h5>
+							<input type="email" class="validate" id="form-email" name="form-email" required>
+						</div>
+						<div class="form-group" id="subject-field">
+							<h5>Assunto*</h5>
+							<input type="text" class="validate" id="form-subject" name="form-subject" required>
+						</div>
+						<div class="form-group" id="message-field">
+							<h5>Sua mensagem*</h5>
+							<textarea name="form-message" id="form-message" cols="30" rows="10" class="materialize-textarea" required></textarea>
+						</div>
+						<div class="form-group">
+							<button class="btn button-default" type="submit" id="submit" name="submit">Enviar</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="to-top">
+		<a href="#top" class="scroll-to-top"><i class="fa fa-arrow-circle-up"></i></a>
+	</div>
+
+	<div class="footer">
+		<div class="container">
+			
+			<div class="social-media">
+				<div class="container">
+					<ul>
+						<li class="fb"><a href=""><i class="fa fa-facebook"></i></a></li>
+						<li class="gl"><a href=""><i class="fa fa-instagram"></i></a></li>
+						<li class="lk"><a href=""><i class="fa fa-linkedin"></i></a></li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="footer-link">
+				<ul>
+					<li><a href="">Vagas</a></li>
+					<li><a href="">| Sobre nós</a></li>
+					<li><a href="">| Contato</a></li>
+					<li><a href="">| Politica de Privacidade</a></li>
+					<li><a href="">| Termos e condições</a></li>
+				</ul>
+			</div>
+			<div class="copyright">
+				<span>VagasCampinas.com.br | ©2018 All Right Reserved</span>
+			</div>
+		</div>
+	</div>
+	
+	<script src="js/jquery.min.js"></script>
+	<script src="js/materialize.min.js"></script>
+	<script src="js/jquery.scrollToTop.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
